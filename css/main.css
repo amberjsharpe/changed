@@ -1,4 +1,13 @@
+
 html {
     background-color: #EFF6EE;
     font: #273043;
+}
+
+a {
+    font-family: Raleway-Bold;
+}
+
+body {
+    font-family: Merriweather-Regular;
 }
