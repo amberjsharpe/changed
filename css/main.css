@@ -1,13 +1,64 @@
 
-html {
-    background-color: #EFF6EE;
-    font: #273043;
-}
-
-a {
+/* Fonts */
+h1, h2, li {
+    color: #273043;
     font-family: Raleway-Bold;
 }
 
-body {
-    font-family: Merriweather-Regular;
+p {
+    color:  #273043;
+    font-family: Cabin-Regular;
+}
+
+ /* Header */
+a {
+    color: #273043;
+    font-family: Raleway-Bold;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 37px;
+}
+
+#logo {
+    width: 90px;
+    height: 75px;
+    padding: 0;
+    margin-left: 0px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #FF813E;
+    height: 170px;
+}
+
+.topnav {
+    display: flex;
+    padding: 15px;
+    list-style: none;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+.topnav-item {
+    padding: 15px;
+}
+
+/* Main */
+html, body {
+    position: relative;
+    min-height: 100%;
+}
+
+/* Footer */
+
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
 }
