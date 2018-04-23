@@ -4,6 +4,7 @@ import Nav from './Nav';
 import Introduction from './Introduction';
 import Social from './Social';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Project, { bookworm } from './Project';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <Social />
           <Introduction />
         </header>
+          <Project />
       </div>
     );
   }
